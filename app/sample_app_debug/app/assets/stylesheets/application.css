@@ -33,7 +33,7 @@ header {
 }
 
 header .headline {
-  font-size: 32px
+  font-size: 32px;
 }
 
 nav {
@@ -61,7 +61,7 @@ main {
 }
 
 .list-wrap {
-  display:  flex;
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -75,7 +75,7 @@ main {
 .list-comment {
   width: 200px;
   position: absolute;
-  left: o;
+  left: 0;
   bottom: 0;
 }
 
@@ -89,8 +89,7 @@ main {
 }
 
 .list-title {
-  display: block
-  font-size: 18px;
+  display: block;  font-size: 18px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
